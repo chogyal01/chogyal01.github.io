@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import device from '../../../Assets/Responsive/breakpoints';
 
 const Container = styled.section`
-    height: 40vh;/* Since pageSplitTime is 1.4 */
+    height: 50vh;/* Since pageSplitTime is 1.4 */
     width:100%;
     /* border: 1px solid blue; */
     position: relative;
@@ -48,7 +48,7 @@ const AboutMeDescription = styled.div`
   }
   @media ${device.desktop} {
     transform: translateY(80%);
-    font-size: 70px;
+    font-size: 75px;
   }
 `;
 
@@ -85,8 +85,7 @@ class AboutMe extends Component {
       <Container>
         <AboutMeTitle scrollPercent={scrollPercent}>ABOUT ME</AboutMeTitle>
         <AboutMeDescription>
-        Front-end developer who cares deeply about user experience.
-        Serious passion for UI design and new technologies.
+        with over 4+ years experience conceptualizing and crafting digital products while inovating and telling stories to users. 🚀 Simple. Intimate. Human.
         </AboutMeDescription>
       </Container>
     );

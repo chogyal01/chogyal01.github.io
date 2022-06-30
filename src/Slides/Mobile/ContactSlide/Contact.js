@@ -6,6 +6,7 @@ import mailImg from '../../../Assets/Images/Social/mail.svg';
 import instaImg from '../../../Assets/Images/Social/insta.svg';
 import dribbbleImg from '../../../Assets/Images/Social/dribbble.svg';
 import linkedInImg from '../../../Assets/Images/Social/linkedin.svg';
+import upworkImg from '../../../Assets/Images/Social/upwork.svg';
 import SocialLogo from './SocialLogo';
 import device from '../../../Assets/Responsive/breakpoints';
 
@@ -91,10 +92,9 @@ class Contact extends Component {
         <ContactTitle>CONTACT</ContactTitle>
         <SocialMediaIcons>
           <SocialLogo imgURL={twitterImg} alternate="twitter" redirectURL="https://twitter.com/sureshmurali29" />
-          <SocialLogo imgURL={githubImg} alternate="github" redirectURL="https://github.com/sureshmurali" />
-          <SocialLogo imgURL={mailImg} alternate="mail" redirectURL="mailto:sureshmurali29@gmail.com" />
-          <SocialLogo imgURL={instaImg} alternate="insta" redirectURL="https://www.instagram.com/sureshmurali_/" />
-          <SocialLogo imgURL={dribbbleImg} alternate="dribbble" redirectURL="https://dribbble.com/sureshmurali29" />
+          <SocialLogo imgURL={upworkImg} alternate="github" redirectURL="https://github.com/sureshmurali" />
+          <SocialLogo imgURL={mailImg} alternate="mail" redirectURL="mailto:chemsbhai@gmail.com" />
+          <SocialLogo imgURL={instaImg} alternate="insta" redirectURL="https://www.instagram.com/chogyalonghuk/" />
           <SocialLogo imgURL={linkedInImg} alternate="linkedin" redirectURL="https://www.linkedin.com/in/sureshmurali29" />
         </SocialMediaIcons>
       </Container>

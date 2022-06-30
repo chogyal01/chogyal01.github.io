@@ -95,7 +95,7 @@ class Skills extends Component {
         <SkillsTitle scrollPercent={scrollPercent}>SKILLS</SkillsTitle>
         <SkillsList>
           <div>
-            Design system
+            Design system & Branding
             <br />
             Wireframing & Prototyping
             <br />
@@ -104,24 +104,24 @@ class Skills extends Component {
             <br />
             Figma
             <br />
-            Sketch
+            Adobe XD
             <br />
-            P5 JS
+            Photoshop, Illustrator
             <br />
           </div>
           <div>
             Responsive & Adaptive Design
             <br />
-            Styling Architecture
+            UX Research
             <br />
-            UI Maintenance
+            UI Design
             <br />
             <br />
             React
             <br />
-            React Native
+            Angular
             <br />
-            Node JS
+            HTML, CSS, JS 
             <br />
           </div>
         </SkillsList>

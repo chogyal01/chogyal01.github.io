@@ -6,6 +6,7 @@ import mailImg from '../../../Assets/Images/Social/mail.svg';
 import instaImg from '../../../Assets/Images/Social/insta.svg';
 import dribbbleImg from '../../../Assets/Images/Social/dribbble.svg';
 import linkedInImg from '../../../Assets/Images/Social/linkedin.svg';
+import upworkImg from '../../../Assets/Images/Social/upwork.svg';
 import SocialLogo from './SocialLogo';
 import device from '../../../Assets/Responsive/breakpoints';
 
@@ -89,12 +90,11 @@ class Contact extends Component {
       <Container>
         <ContactTitle scrollPercent={scrollPercent}>CONTACT</ContactTitle>
         <SocialMediaIcons>
-          <SocialLogo imgURL={twitterImg} alternate="Twitter" redirectURL="https://twitter.com/sureshmurali29" />
-          <SocialLogo imgURL={githubImg} alternate="Github" redirectURL="https://github.com/sureshmurali" />
-          <SocialLogo imgURL={mailImg} alternate="Mail" redirectURL="mailto:sureshmurali29@gmail.com" />
-          <SocialLogo imgURL={instaImg} alternate="Instagram" redirectURL="https://www.instagram.com/sureshmurali_/" />
-          <SocialLogo imgURL={dribbbleImg} alternate="Dribbble" redirectURL="https://dribbble.com/sureshmurali29" />
-          <SocialLogo imgURL={linkedInImg} alternate="Linkedin" redirectURL="https://www.linkedin.com/in/sureshmurali29" />
+          {/* <SocialLogo imgURL={twitterImg} alternate="twitter" redirectURL="https://twitter.com/sureshmurali29" /> */}
+          <SocialLogo imgURL={upworkImg} alternate="upwork" redirectURL="https://www.upwork.com/freelancers/~01b4a534ea76cd2fc6" />
+          <SocialLogo imgURL={mailImg} alternate="mail" redirectURL="mailto:chemsbhai@gmail.com" />
+          <SocialLogo imgURL={instaImg} alternate="insta" redirectURL="https://www.instagram.com/chogyalonghuk/" />
+          <SocialLogo imgURL={linkedInImg} alternate="linkedin" redirectURL="https://www.linkedin.com/in/chojay-wangchuk-894a4a224/" />
         </SocialMediaIcons>
       </Container>
     );
